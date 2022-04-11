@@ -1,0 +1,245 @@
+body{
+    background-color: #e7e0d2;
+}
+
+
+#menu{
+    opacity: 0;
+    margin-top: -1%;
+    position: fixed;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	background-color: #fffef9;
+	width:30%;
+	height:100%;
+	padding:0;
+	box-shadow: 3px -3px 2px #9e9a9a;
+}
+.span_text{
+    margin-left: 5%;
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10%;
+}
+li{
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    width: 50%;
+    padding: 5%;
+}
+a{
+    display: flex;
+    align-items: center;
+}
+#content{
+    float: right;
+    width: 90%;
+    margin-right: 0%;
+}
+.card_t{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 53% 53%;
+    grid-template-rows:50% 50% ;
+    grid-column-gap: 1%;
+    grid-row-gap:12%;
+    margin-right: 10%;
+}
+.card{
+    background-color: white;
+}
+#gren{
+    background-color: green;
+}
+#yellow{
+ background-color: rgb(211, 211, 5);
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+.image{
+    width: 5vw;
+    height: 5vw;
+    padding:7%;
+    margin-top: -10%;
+    margin-left: 1%
+}
+.image img{
+    height: auto;
+    width: 4vw;
+}
+.text{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: flex-end;
+margin-right: 5%;
+margin-top: 5%;
+}
+.small{
+    font-size: 90%;
+}
+.bigg{
+    font-size: 100%;
+    font-weight: bold;
+}
+.two{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-top: 1px solid gray;
+    margin-top: 5%;
+}
+.img_card{
+    margin-right: 5%;
+}
+.card_y{
+    margin-right: 8%;
+    display: grid;
+    grid-template-columns: 30%;
+    grid-template-rows: 40% 40% 40%;
+    grid-column-gap: 8%;
+    grid-row-gap: 10%;
+    margin-top: 25%;
+}
+.card_dj{
+    background-color: white;
+}
+.img_dj{
+    width: 80%;
+}
+.cvadrat_dj_one{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.card_two{
+    background-color: white;
+    width: 345%;
+}
+.imag img{
+    width: 70%;
+}
+.imag{
+    height: 30vw;
+    margin-top: -15%;
+    text-align: center;
+}
+.card_two .one{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card_two .text{
+    flex-direction: column-reverse;
+    align-items: normal;
+}
+.card_z{
+    margin-right: 5%;
+    margin-top: 70%;
+    display:grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 85% 85%;
+    grid-row-gap:10%;
+}
+.left_card{
+    width: 125%;
+    background-color: white;
+}
+.cvadrat_left_card{
+    display: flex;
+    background-color:rgb(211, 211, 5);
+    width: 80%;
+    height: 3vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    font-size: 90%;
+}
+.checkbox{
+    float: left;
+    width: 78%;
+}
+.img_checkbox{
+    width: 8%;
+    height: 70%;
+}
+.group_checkbox{
+    padding: 2%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.line{
+    border: 1px solid grey;
+}
+.ww{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    margin-bottom: -25%;
+}
+.right_card{
+    width: 125%;
+    background-color: white;
+}
+.cvadrat_right_card{
+    font-size: 85%;
+    color: white;
+    height: 10vw;
+    background-color: blue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -7%;
+}
+table{
+    margin-top: 13%;
+    border-collapse: collapse;
+    font-size: 140%;
+    width: 90%;
+    margin-left: 5%;
+}
+tr{
+    height: 2.5vw;
+}
+td{
+    border-bottom: 1px solid gray;
+}
+.lol img{
+    height: 20px;
+    margin-right: 6%;
+}
+.lol:hover{
+    background-color:#ffffff45;
+    padding: 3%;
+}
+#footer{
+    margin-right: 5%;
+    margin-top: 75%;
+    border-top:1px solid gray
+}
+.sp_footer{
+    display: flex;
+    float: left;
+}
+.line_footer_right{
+    float: right;
+}
